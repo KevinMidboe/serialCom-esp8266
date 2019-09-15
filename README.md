@@ -16,10 +16,10 @@ $ ls /dev/tty.usb*
 
 I run esp8266 tool from the source files in a virtualenv, your command might veary slightly:  
 ```
-$ env/bin/python3 esptool.py -p /dev/tty.usbserial-1460 write_flash -z 0x0000 ~/firmware-combined.bin
+$ env/bin/python3 esptool.py -p /dev/tty.usbserial-1420 write_flash -z 0x0000 ~/firmware-combined.bin
 ```
 
-Note the *tty.usbserial-1460* device name and the path *../firmware-combined.bin* for the micropython binary.
+Note the *tty.usbserial-1420* device name and the path *../firmware-combined.bin* for the micropython binary.
 
 
 ### Install
